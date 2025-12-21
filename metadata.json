@@ -1,0 +1,7 @@
+{
+  "name": "Ouroboros",
+  "description": "A recursive, self-building dashboard where an AI agent generates React mini-apps (widgets) on demand and hot-loads them into the interface. English/spanish + an entire suite of accessibility tools, with a dedicated neurodivergent 'non communicative/verbal' build mode \"aura\"",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
