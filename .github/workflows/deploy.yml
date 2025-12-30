@@ -25,10 +25,11 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: "20"
-          cache: 'npm'
+          # Removed cache: 'npm' to prevent the lockfile error
 
       - name: Install dependencies
-        run: npm ci
+        # Changed to 'npm install' to generate the missing lockfile automatically
+        run: npm install
 
       - name: Build
         run: npm run build
